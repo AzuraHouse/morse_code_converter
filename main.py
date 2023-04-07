@@ -24,19 +24,17 @@ for letter in letters:
     key = search.get_key_by_value(search_value=letter)
     empty.append(key)
 
-
+# Adding sounds
 for message in empty:
     sound_letters = [sound_letter for sound_letter in message]
     print(sound_letters)
     if "." in sound_letters:
         for i in range(len(sound_letters)):
-            print("True")
             playsound("sounds/dot_morse_code1.mp3")
     if "-" in sound_letters:
         for i in range(len(sound_letters)):
-            print("False")
             playsound("sounds/line_morse_code1.mp3")
-final_code = " ".join(empty)
-print(final_code)
+final_message = " ".join(empty)
+print(final_message)
 
 
