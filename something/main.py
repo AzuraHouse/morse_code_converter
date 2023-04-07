@@ -1,4 +1,4 @@
-from key_value import DictSearch
+from something.key_value import DictSearch
 
 morse_code_alphabet = {".-": "a", "-...": "b", "-.-.": "c", "-..": "d", ".": "e", "..-.": "f", "--.": "g", "....": "h",
                        "..": "i", ".---": "j", "-.-": "k", ".-..": "l", "--": "m", "-.": "n", "---": "o", ".--.": "p",
