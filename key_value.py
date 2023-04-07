@@ -6,5 +6,5 @@ class DictSearch:
         for key, value in self.my_dict.items():
             if value == search_value:
                 return key
-        else:  # If the value is not found int the dictionary
+        else:  # If the value is not found int the dictionary.
             return " "
