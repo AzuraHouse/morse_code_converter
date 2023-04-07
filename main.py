@@ -18,6 +18,7 @@ print(letters)
 
 empty = []
 
+# combining letters
 for letter in letters:
     key = search.get_key_by_value(search_value=letter)
     empty.append(key)
